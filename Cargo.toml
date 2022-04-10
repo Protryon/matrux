@@ -2,9 +2,11 @@
 name = "matrux"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Protryon <max.bruce12@gmail.com>"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/Protryon/matrux"
+description = "Neural network implementation in rust"
+keywords = [ "neural", "network", "backpropagation", "learning" ]
 
 [dependencies]
 half = "1.8"
-smallvec = "1.8"
